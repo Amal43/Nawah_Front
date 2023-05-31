@@ -1,0 +1,33 @@
+
+.intro {
+    /* background-color: #20d149; */
+    background-image: url("../../assets/images/3.jpg");
+    height: 700PX;
+    /* background-color: #e0e0df; */
+    /* background-position: start; */
+    background-size: cover;
+    /* background-color: #000; */
+    /* opacity: ; */
+    /* border-radius: 110px 0px 120px 0px; */
+
+    /* mask-border-slice: 10 12 15 5 fill ; */
+}
+
+.herotext {
+    display: flex;
+    justify-content: center;
+    color: black;
+    /* padding-top: 100px; */
+    position: absolute;
+    left: 278px;
+    top: 425px;
+    font-family:'Reem_Kufi';
+    
+}
+
+.herotext span {
+    color: #81ba00;
+    font-family:'Reem_Kufi';
+    
+}
+

@@ -1,0 +1,116 @@
+
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.about-us{
+    margin-top: 150px;
+}
+.name{
+    text-decoration: none;
+    color: rgb(16, 87, 16);
+}
+.name:hover{
+    color: rgb(16, 87, 16);
+}
+.team{
+    font-family: 'Reem_Kufi';
+} 
+.ecommerce-about-team {
+    position: relative;
+    padding: 150px 0 100px
+}
+
+.ecommerce-about-team .team-box .team-img {
+    position: relative;
+    border-radius: 50%
+}
+
+.ecommerce-about-team .team-box .team-img img {
+    padding: 14px
+}
+
+.ecommerce-about-team .team-box .team-img::after,
+.ecommerce-about-team .team-box .team-img::before {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%
+}
+
+.ecommerce-about-team .team-box .team-img::before {
+    background-color: #06d6a0;
+    left: 60%
+}
+
+.ecommerce-about-team .team-box .team-img::after {
+    background-color: #ef476f;
+    left: 35%;
+    bottom: 0
+}
+
+.ecommerce-about-cta {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -100px
+}
+
+.ecommerce-subscript input {
+    padding: 15px 135px 15px 24px
+}
+
+.ecommerce-subscript .btn {
+    position: absolute;
+    right: 4px;
+    top: 4px
+}
+
+.ecommerce-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.ecommerce-product .sidebar {
+    width: 350px
+}
+
+.ecommerce-product .sidebar.small-sidebar {
+    width: 280px
+}
+
+.ecommerce-product .offer-bar {
+    width: 350px
+}
+
+.ecommerce-product .offer-bar .offer-banner {
+    height: 520px
+}
+
+@media (max-width:1200px) {
+    .ecommerce-product {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .ecommerce-product .offer-bar,
+    .ecommerce-product .sidebar,
+    .ecommerce-product .sidebar.small-sidebar {
+        width: 100%
+    }
+}
+
+@media (max-width:1440px) {
+    .ecommerce-product .offer-bar {
+        display: none
+    }
+}
