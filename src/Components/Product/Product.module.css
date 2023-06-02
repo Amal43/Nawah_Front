@@ -1,0 +1,159 @@
+
+.prod__header
+{
+    text-align: center;
+    font-family:'Reem_Kufi'
+    
+
+}
+.prod__header img
+{
+    width: 50px;
+}
+.prod__butt
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.prod__butt li a
+{
+	background: none;
+	border: 2px solid #e0e0df;
+	border-radius: 25px;
+	-moz-border-radius: 25px; 
+	-webkit-border-radius: 25px; 
+	-khtml-border-radius: 25px;
+	color: #888888;
+	font: 500 16px/18px "Poppins",Helvetica,sans-serif;
+	margin: 0;
+	padding: 10px 30px;
+	position: relative;
+	text-transform: capitalize;
+	transition: all 300ms ease-in-out 0s;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-moz-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	-ms-transition: all 300ms ease-in-out 0s;
+    margin-right: 10px;
+}
+li.active a
+{
+    background-color: #81ba00;
+    color: white;
+}
+.items
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item
+{
+    width: 27%;
+    height:  382px;
+    margin:10px 15px;
+    border-left: #81ba00 solid 1px;
+    border-right: #81ba00 solid 1px;
+    border-right: #81ba00 solid 1px;
+    border-bottom: #81ba00 solid 1px;
+    border-radius: 25px;
+}
+.item__img
+{
+    width: 100%;
+    /* height: 50%; */
+    /* transform: translate(0, 1.5rem); */
+    transition: transform 500ms ease-in-out;
+}
+.item__img img
+{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 7px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 25px;
+    /* 25px 0px 0px */
+}
+.item_dec
+{
+    width: 100%;
+    text-align: center;
+}
+.rating
+{
+    width: 100%;
+}
+
+/*  */
+.button-group
+{
+    display: none;
+}
+.button-group button
+{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: #81ba00;
+    border: 1px solid #81ba00;
+    border-radius: 15px;
+    /* border: none; */
+    margin-bottom: 15px;
+}
+.item:hover
+{
+    border-radius: 25px;
+    box-shadow:  -1px 15px 40px 1px rgb(187, 186, 186);
+    border-bottom: 3px solid #81ba00;
+}
+.item:hover .button-group
+{
+    display: inline;
+}
+.button-group button:hover
+{
+    background-color: #81ba00;
+    color: white;
+}
+.item:hover .item__img
+{
+    transform: translate(0rem, -0.5rem) rotate(0deg);
+}
+
+/*  */
+@media (max-width: 1202px)
+{
+    .item
+    {
+        width: 29%;
+    }
+}
+@media (max-width: 992px)
+{
+    .item
+    {
+        width: 28%;
+
+    }
+}
+@media (max-width: 786px)
+{
+    .item
+    {
+        width: 40%;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 527px)
+{
+    .item
+    {
+        width: 90%;
+        margin: 25px 0px;
+        /* padding: 15px; */
+    }
+}
