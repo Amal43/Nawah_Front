@@ -1,43 +1,45 @@
 
-
+@font-face {
+    font-family: 'droid';
+    src: url('../../assets/font/Droid.ttf');
+  }
 ul {
     list-style-type: none;
 }
 
-img {
-    width: 100%;
-    display: block;
-}
 
-.about-us{
-    margin-top: 150px;
+.about_us{
+    margin: 150px 0;
 }
 .name{
     text-decoration: none;
     color: rgb(16, 87, 16);
+    font-family: 'droid';
 }
 .name:hover{
     color: rgb(16, 87, 16);
 }
 .team{
-    font-family: 'Reem_Kufi';
+    font-family: 'droid';
 } 
-.ecommerce-about-team {
+.ecommerce_about_team {
     position: relative;
-    padding: 150px 0 100px
+    /* padding: 150px 0 100px */
+    font-family: 'droid';
+
 }
 
-.ecommerce-about-team .team-box .team-img {
+.ecommerce_about_team .team_box .team-img {
     position: relative;
     border-radius: 50%
 }
 
-.ecommerce-about-team .team-box .team-img img {
+.ecommerce_about_team .team_box .team-img img {
     padding: 14px
 }
 
-.ecommerce-about-team .team-box .team-img::after,
-.ecommerce-about-team .team-box .team-img::before {
+.ecommerce_about_team .team_box .team-img::after,
+.ecommerce_about_team .team_box .team-img::before {
     content: "";
     position: absolute;
     height: 8px;
@@ -45,14 +47,14 @@ img {
     border-radius: 50%
 }
 
-.ecommerce-about-team .team-box .team-img::before {
+.ecommerce_about_team .team_box .team-img::before {
     background-color: #06d6a0;
     left: 60%
 }
 
 /* hhhhhhhhhhh */
 
-.ecommerce-about-team .team-box .team-img::after {
+.ecommerce_about_team .team_box .team-img::after {
     background-color: #ef476f;
     left: 35%;
     bottom: 0

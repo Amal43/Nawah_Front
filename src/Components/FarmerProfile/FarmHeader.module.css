@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'droid';
+    src: url('../../assets/font/Droid.ttf');
+  }
+  
+.userprofile{
+    background-image: url('../../assets/images/cart.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 576px;
+    height: 240px;
+    margin-bottom: 130px;
+    width: 100%;
+    padding: 0;
+}
+.profile_pic{
+    height: 183px;
+    width:184px;
+    border-radius: 50%;
+    border: 1px solid #81ba00;
+    padding: 3px;
+    background-color: #81ba00;
+    transform: translateY(calc(50% + 40px));
+    font-family: 'droid';
+
+}
+.profile_pic .imagepro{
+    display: inline-block;
+    max-width: 100%;
+    height: 176px;
+    border-radius: 50%;
+}

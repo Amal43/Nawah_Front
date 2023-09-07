@@ -1,4 +1,9 @@
 /* general style */
+@font-face {
+  font-family: 'droid';
+  src: url('../../assets/font/Droid.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +18,7 @@ body{
 }
 /*form*/
 .main-parent{
-  background-image: url(../assets/imgs/beautiful-wooden-floor-and-barhi-dates-palm-yellow-fruits-field-nature-background-agriculture-product-standing-showcase-background-barhi-dates-palm-tree-garden-and-healthy-food-concept-free-photo.jpg);
+  background-image: url(../../assets/images/palms.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -32,9 +37,13 @@ body{
   font-size: 45px;
   text-align: center;
   margin-bottom: 15px;
+  font-family: 'droid';
+
 }
 .form-wrap h1 span{
   color: var(--green);
+  font-family: 'droid';
+
 }
 .form-wrap .single-input input{
   width: 100%;
@@ -50,6 +59,8 @@ body{
 label {
   display: block;
   margin-bottom: 10px;
+  font-family: 'droid';
+
 }
 .submit-btn{
   text-align: center;
@@ -82,6 +93,7 @@ label {
 }
   /*  Photo */
   .profile-pic {
+   
     color: transparent;
     display: flex;
     justify-content: center;
@@ -140,6 +152,8 @@ label {
   border-radius: 2.5rem;
   font-weight: 800;
   font-size: larger;
+  font-family: 'droid';
+
 } 
 
 /* registeration style */

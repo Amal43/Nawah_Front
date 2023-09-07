@@ -1,11 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Aboutimg from "../../assets/images/about-us.png";
-// import './About.css'
 import about from "./About.module.css";
 function AboutHome() {
   return (
     <section className={about.About}>
-      <div className={about.container}>
+      <div className={"container"}>
         <div className={about.row}>
           <div className={about.about__img}>
             <img src={Aboutimg} alt="" />
@@ -44,7 +44,7 @@ function AboutHome() {
               </div>
             </div>
             <div className={about.about_btn}>
-              <a href=" #">تسوق الآن</a>
+              <NavLink to={'/product'}>تسوق الآن</NavLink>
             </div>
           </div>
         </div>

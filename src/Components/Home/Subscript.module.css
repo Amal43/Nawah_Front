@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'droid';
+    src: url('../../assets/font/Droid.ttf');
+  }
+  
 .SingUp {
     background-image: url('../../assets/images/pattern.png');
     height: 150px;
-    margin: auto 0px;
     align-self: center;
+    /* margin: auto 0px; */
 }
 
 .SingUp .container {
@@ -20,7 +25,7 @@
 
 .singup__text {
     width: 40%;
-    font-family:'Reem_Kufi';
+    font-family: 'droid';
     text-align: center;
     margin: auto;
 }
@@ -34,6 +39,8 @@
 .singup__text i {
     color: #81ba00;
     margin: 15px;
+    font-family: 'droid';
+
 }
 
 .singup__input button {
@@ -43,7 +50,7 @@
     font-size: 16px;
     text-transform: capitalize;
     line-height: 21px;
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'droid';
     padding: 11px 30px;
     border-radius: 22px;
     -moz-border-radius: 22px;
@@ -69,4 +76,33 @@
     padding: 15px;
     width: 300px;
     border-bottom: 1px solid #888888;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .singup__input input {
+        width: 100%;
+        margin: 25px 0px;
+        /* padding: 15px; */
+    }
+}
+@media (max-width: 786px) {
+    .singup__input input {
+        width: 100%;
+        margin: 25px 0px;
+        /* padding: 15px; */
+    }
+}
+@media (max-width: 527px) {
+    .singup__input input {
+        width: 70%;
+        margin: 25px 0px;
+        /* padding: 15px; */
+    }
 }
